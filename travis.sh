@@ -117,7 +117,7 @@ BUILD)
           $MAVEN_ARGS \
           -Pjacoco -Djacoco.includes=parcoursup.* \
           -Dsonar.host.url=$SONAR_HOST_URL \
-          -Dsonar.organization=ligoj-github \
+          -Dsonar.organization=fabdouglas \
           -Dsonar.login=$SONAR_TOKEN \
           -Dsonar.projectVersion=$PROJECT_VERSION \
           -Dsonar.github.repository=$TRAVIS_REPO_SLUG \
