@@ -16,6 +16,7 @@
 	<properties>
 		<jdk.version>9</jdk.version>
 		<jdk.release>9</jdk.release>
+		<sonar.sources>java,plsql</sonar.sources>
 	</properties>
 	<build>
 		<sourceDirectory>java</sourceDirectory>
